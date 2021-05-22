@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML FORM</title>
+  </head>
+  <body>
+    <form method="GET">
+      <h1>HTML FORM</h1>
+
+      <!-- username -->
+      <label for="username">Username: </label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="username"
+        required
+      /><br /><br />
+
+      <!-- password -->
+      <label for="password">Password: </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="your password"
+        required
+      /><br /><br />
+
+      <!-- email -->
+      <label for="email">Email: </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="your email"
+        required
+      /><br /><br />
+
+      <!-- radio button -->
+      <p>Select your gender</p>
+
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="Male" /><br />
+
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="Female" /><br />
+
+      <label for="others">Others</label>
+      <input
+        type="radio"
+        name="gender"
+        id="others"
+        value="Others"
+      /><br /><br />
+
+      <label for="age-group">Select your age group</label>
+      <select name="age-group-values" id="age-group">
+        <option value="5-10">5-10</option>
+        <option value="11-20">11-21</option>
+        <option value="21-50">21-50</option>
+        <option value="50+">50+</option>
+      </select>
+
+      <br /><br />
+
+      <!-- submit button -->
+      <input type="submit" value="sign in" />
+    </form>
+  </body>
+</html>

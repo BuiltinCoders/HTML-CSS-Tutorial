@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rohan sharma" />
+    <meta name="description" content="this is tutorial" />
+    <meta name="keywords" content="HTML, Tutorial" />
+    <style>
+      .table-heading {
+        color: brown;
+      }
+      /* #main-heading{
+            color: blueviolet;
+        } */
+      .headings {
+        background-color: black;
+        color: aliceblue;
+      }
+      .amet {
+        background-color: black;
+        color: yellow;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="headings">
+      <!-- Heading tag -->
+      <h1 id="main-heading">This is heading</h1>
+      <h2>This is heading</h2>
+      <h3>This is heading</h3>
+      <h4>This is heading</h4>
+      <h5>This is heading</h5>
+      <h6>This is heading</h6>
+    </div>
+
+    <!-- Paragraph tag -->
+    <p>
+      Lorem ipsum dolor sit<span class="amet"> amet </span>consectetur,
+      adipisicing elit. <br /><br /><br />
+      Dolorem ipsum aliquam, aperiam, odit iusto sequi ratione corporis placeat
+      doloremque quia id quaerat! Natus dolor ducimus magni quasi fuga quos qui,
+      consectetur earum nostrum incidunt dicta beatae! Officia culpa laudantium
+      voluptas eum autem aliquam, iste numquam eaque voluptate voluptates nisi
+      quae?
+    </p>
+    <!-- hr tag is used to add draw a line -->
+    <hr />
+    <p>
+      Lorem, <strong>ipsum</strong> dolor sit amet consectetur adipisicing elit.
+      Veritatis alias, <em>modi</em> in beatae ratione dolores. Explicabo
+      praesentium aspernatur at cumque.
+    </p>
+
+    <!-- Link -->
+    <a href="https:\\www.google.com" target="_blank">Google link</a><br /><br />
+
+    <!-- Image -->
+    <img
+      src="./html image/tech.jpg"
+      alt="This is a image related to technocal things"
+    />
+
+    <!-- Table -->
+    <h2 class="table-heading">Table</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>first name</th>
+          <th>last name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>rohan</td>
+          <td>sharma</td>
+        </tr>
+        <tr>
+          <td>kisan</td>
+          <td>kumar</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+
+    <!-- HTML form -->
+    <h2>HTML Form</h2>
+    <form>
+      <!-- input text -->
+      <label for="username">Username: </label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Username"
+      /><br /><br />
+
+      <label for="password">Password: </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Password"
+      /><br />
+
+      <!-- radio button -->
+      <p>Select your gender</p>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" /><br />
+
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" /><br />
+
+      <label for="other">Other</label>
+      <input type="radio" name="gender" id="other" /><br />
+
+      <!-- dropdown list -->
+      <label for="country">Country: </label>
+      <select name="country" id="country">
+        <option value="India">India</option>
+        <option value="Butan">Butan</option></select
+      ><br />
+
+      <!-- text area -->
+      <p>tyoe below</p>
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="type here"
+      ></textarea
+      ><br />
+
+      <!-- submit button -->
+      <br /><input type="submit" value="sign in" />
+    </form>
+
+    <!-- html entities -->
+    <p>This is less than symbol &lt;</p>
+    <p>This is copywrite symbol &copy;;</p>
+  </body>
+</html>

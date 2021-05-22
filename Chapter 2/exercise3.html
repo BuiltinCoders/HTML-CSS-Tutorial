@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up form</title>
+  </head>
+  <body>
+    <h1>Sign Up Form</h1>
+    <form>
+    <br />
+
+    <!-- first name -->
+    <input
+      type="text"
+      name="first name"
+      id="first name"
+      placeholder="First Name"
+      required
+    /><br /><br />
+
+    <!-- last name -->
+    <input
+      type="text"
+      name="last name"
+      id="last name"
+      placeholder="Last Name"
+      required
+    /><br /><br />
+
+    <!-- email -->
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="Email"
+      required
+    /><br /><br />
+
+    <!-- password -->
+    <input
+      type="password"
+      id="password"
+      placeholder="Password"
+      required
+    /><br /><br />
+
+    <!-- radio button -->
+    <p>Select Gender</p>
+
+    <label for="male">male</label>
+    <input type="radio" name="gender" id="male" value="male" required /><br />
+
+    <label for="female">female</label>
+    <input type="radio" name="gender" id="female" value="female" required /><br />
+
+    <label for="other">other</label>
+    <input type="radio" name="gender" id="other" value="other" required /><br /><br />
+
+    <!-- dropdown list -->
+    <label for="country">Country</label>
+    <select name="country" id="country">
+      <option value="India">India</option>
+      <option value="Nepal">Nepal</option>
+      <option value="Butan">Butan</option></select
+    ><br /><br />
+
+    <!-- textarea -->
+    <label for="comment">Write about yourself below</label><br /><br />
+    <textarea
+      name="comments"
+      id="comment"
+      cols="30"
+      rows="10"
+      placeholder="type here"
+    ></textarea
+    ><br />
+
+    <!-- submit button -->
+    <input type="submit" value="submit" />
+  </form>
+  </body>
+</html>
