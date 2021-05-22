@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300;400&family=Noto+Sans&family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Noto Sans';
+    font-weight: 400;
+}
+
+
+h2{
+    color: rgb(252, 186, 3); /*[rgb color]*/ 
+    /* color:#0394fc [hex code] */
+    /* color:#fff [shortcut for white] */
+    /* color:#000 [shortcut for black] */
+    /* color:#ababab [gray color] */
+}
+
+p{
+    color:#818181
+}

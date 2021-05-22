@@ -1,0 +1,10 @@
+/* body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+*/
+
+/* source = google fonts */
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300;400&family=Noto+Sans&family=Open+Sans&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight:400;
+}

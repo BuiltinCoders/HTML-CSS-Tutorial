@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300;400&family=Noto+Sans&family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Noto Sans';
+}
+
+#main-heading{
+    color:#fc8803
+}
+
+.main-section{
+    color:rgb(252, 186, 3)
+}
+p{
+    color:#686868
+}

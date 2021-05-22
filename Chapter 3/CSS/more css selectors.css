@@ -1,0 +1,31 @@
+/* *{                /*This is called universal selectors that selects all the elements of the html file*/
+    /* color: green; */
+/* } */
+
+header{
+    background-color: #f0ebeb;
+}
+
+section.my-article{     /* here "." stands for name of specific tag or class name of that tag*/
+    background-color: #f9e9e9;
+}
+
+header p{           /*decentent selectors here space between two tags that specific tag is inside another tag*/
+    color: red;   /* here p tag is inside header tag*/
+}
+
+li a{
+    color: orange;
+}
+
+section.my-article > h2{   /* here ">" sign shows direct relation between two tags whelter the second one */
+    color: green;       /* is direct child of first one in this case h2 is direct child of section whose*/
+}                         /*name is 'my-article'*/
+
+section.my-article h2+p{
+    color: rgb(171, 196, 61);
+}
+
+ul+p{                          /* use to select a tag that comes after a specific tag. In this case*/
+    color: #a0a0a0;          /* the first p tag that comes after ul tag*/
+}
