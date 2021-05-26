@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+    color: #444;
+}
+
+h1, h2{
+    border: 2px solid black;
+    /* width: 500px;
+    height: 100px; */
+    display: inline;
+}
+
+h1{
+    /* margin: 100px; */
+    /* padding: 100px; */
+}
+
+a{
+    border: 2px solid red;
+    /* width: 500px;
+    height: 100px; */
+    /* margin: 100px;
+    padding: 0px 50px;*/
+    display: block;
+    margin: 50px;
+    padding: 20px;
+}
+
+/* Notes */
+
+/* Block level Elements */
+/* 
+1. Block level elements use all available sapce usually a whole line.
+2. We can adjust margin and padding of block level element.
+3. We can set the width of the block level elements.
+
+Explain with a example - Imagine block level element as big house where we can ajust position of furnitures.
+*/
+
+/* Inline level Elements */
+/* 
+1. Inline level element only use required space.
+2. We can adjust margin and padding on the left-right of inline element.
+3. We can't set the width of the block element.
+
+Explain with a example - Imagine inline level element as a small house where it difficult to adjust the position of the furnitures.
+*/
