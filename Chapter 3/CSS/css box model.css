@@ -1,0 +1,55 @@
+h1{
+    /* border */
+    /* shothand for border */
+    border: 4px dotted green;
+    
+    /* padding */
+    /* padding-left: 40px;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 40px; */
+
+    /* shothand for padding */
+
+    /* equal padding for sides */
+    padding: 40px;
+    
+    /* equal padding for top and bottom and equal padding for left and right seperately */
+    /* first value for top and bottom
+    and second for left and right */
+    /* padding: 40px 80px; */
+    
+    /* unequal pading for each side */
+    /* imagine a clock which rotates clockwies
+    first value for top and second value for right and third value for bottom and at the last value for left */
+    /* padding: 20px 30px 40px 50px; */
+
+    /* Margin */
+    /* margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 20px; */
+
+    /* equal magin for all sides */
+    /* margin: 100px; */
+
+    /* eual margin in pair of top-bottom and left-right */
+    /* first value for top-bottom and second for left-rights */
+    /* margin: 40px 80px; */
+
+    /* giving seperate margin for each side */
+    /* margin value set clockwise */
+    /* first value for top, second for right, third for bottom and fourth for left */
+    /* margin: 20px 30px 40px 50px; */
+
+
+    width: 500px;
+    
+    /* get border in center */
+    margin: 20px auto;
+
+    /* get text in center */
+    text-align: center;
+
+    /* background starts from the border outer line */
+    background-color: lightskyblue;
+}

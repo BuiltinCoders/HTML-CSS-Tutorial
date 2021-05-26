@@ -1,0 +1,36 @@
+h2{
+    /* shothand */
+    border: 5px solid green;
+    border-radius: 6px;
+
+    /* border-bottom: 5px solid green;
+    border-top: 5px groove green; */
+    
+    /* normal way to create border */
+    /* border-width: 6px;
+    border-style: inset;
+    border-color: green; */
+}
+
+
+
+/* div{
+    border: 8px solid red;
+} */
+
+/* li{
+    border: 4px solid black;
+} */
+
+p{
+    border: 4px solid red;
+}
+span{
+    border: 4px solid #ababab;
+}
+
+/* Notes */
+
+/* 1. border attribute is use to make border around text, images, etc. */
+/* 2. there are many type of border styles like:- solid, outset, dotted, inset, dashed, groove, etc. */
+/* 3. border-radius attribute is used to make border edges curvy */

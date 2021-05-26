@@ -1,0 +1,47 @@
+/* inline attribute selector > id selector > class selector > element selector */   /*--------> this is called order of specificity*/
+
+div#container ul.my-songs li{
+    color: yellow;
+    background-color: green;
+}
+
+/* how to calculate specificity*/
+/* we can calculate specificity by the help of order of specificity */
+
+/* specificity can be found by four numbers */
+/* first number = no. of inline attribute selctors */
+/* second number = no. of id selectors */
+/* third number = no. of class selectors */
+/* fourth number = no. of element selectors */
+
+
+/* specificity of above tag */
+/* 0, 1, 1, 3   ----> 113 */
+/* here:- */
+/* 0 = no. of inline attribute selectors */
+/* 1 = no. of id selectors */
+/* 1 = no. of class selectors */
+/* 2 = no. of element selectors */
+/* 113 is the specificity value for this css tag */
+
+
+
+/* .favourite{
+    color: green;
+    background-color: yellow;
+} */
+
+/* finding specificity = 0, 0, 1, 0  -----> 10 */
+/* specificity = 10 */
+
+/* specificity of this css tag is less than the above tag so above tag will donate */
+
+
+div#container ul.my-songs li.favourite{
+    color: green;
+    background-color: yellow;
+}
+
+/* finding specificity = 0, 1, 2, 3  ------> 123 */
+/* specificity = 123 */
+/* which is highest so this css file will dominate the others */

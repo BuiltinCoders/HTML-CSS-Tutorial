@@ -1,0 +1,19 @@
+/*inline style attribute selector > id selector > class selector > element selector*/
+
+h1 {
+  color: green;
+}
+
+.h1class {
+  /*class are more specific than element selector*/
+  color: red;
+}
+
+/* #h1id{
+    color: blue !important;   /*id is more specific than classes. '!important' sign make the specificity higest
+} */
+
+.heading {
+  /* classes of same tag then the code below the other will dominate the other code*/
+  color: magenta;
+}
