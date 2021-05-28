@@ -1,0 +1,31 @@
+body{
+    font-family: Poppins;
+}
+
+nav{
+    background-color: #dedede;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+li{
+    display: inline-block;
+    margin: 3px 12px;
+    border-bottom: 3px solid #ababab;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h3{
+    border-bottom: 3px solid #ababab ;
+}
+
+div{
+    padding: 10px;
+}
+
+a{
+    color: #444;
+    text-decoration: none;
+}

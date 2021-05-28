@@ -1,0 +1,17 @@
+/* problems of inline elements */
+/* a{
+    border: 3px solid black;
+    margin: 100px;      margin added only left and right
+    padding: 50px;      padding overlaps
+    width: 500px;       not working
+    height: 300px;      not working
+} */
+
+a{
+    display: inline-block;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}

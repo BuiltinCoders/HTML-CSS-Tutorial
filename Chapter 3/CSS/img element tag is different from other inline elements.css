@@ -1,0 +1,15 @@
+img{
+    width: 300px;
+    height: 300px;
+    border: 4px solid black;
+    padding: 7px;
+    margin: 10px;
+}
+
+/* Notes: */
+
+/* 
+1. Instead of other inline element we can set width, height, padding, margin to img inline element
+
+2. If width is given then no need to give height , height will automatically be selected by the browser and vice-versa
+*/
